@@ -5,7 +5,7 @@ btn.addEventListener('click', function(){
     // get a random number between 0 - 3
     const randomNumber = getRandomNumber();
     document.body.style.backgroundColor = colors[randomNumber];
-    color.textContent = colors[randomNumber];
+    color.textContent = color.style.color = colors[randomNumber];
 });
 
 function getRandomNumber(){
